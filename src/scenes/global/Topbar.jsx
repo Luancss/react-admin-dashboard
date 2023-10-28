@@ -11,7 +11,15 @@ import SearchIcon from '@mui/icons-material/LightModeOutlined'
 
 const Topbar = () => {
   const theme = useTheme();
-  return <div>Topbar</div>
+  const color = tokens(theme.palette.mode)
+  const colorMode = useContext(ColorModeContext)
+  return (<Box display="flex" justifyContent="space-between" p={2}>
+    {/* SEARCH BAR */}
+    <Box display="flex" backgroundColor={color.primary[400]} borderRadius="3px">
+      
+    </Box>
+    <IconButton sx={{display: "flex"}}></IconButton>
+  </Box>)
 }
 
 export default Topbar

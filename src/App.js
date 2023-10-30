@@ -1,3 +1,5 @@
+/* eslint-disable import/first */
+
 import Topbar from "./scenes/global/Topbar";
 import { ColorModeContext, useMode } from "./theme";
 import { Routes, Route } from "react-router-dom";

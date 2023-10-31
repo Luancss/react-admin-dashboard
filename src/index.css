@@ -20,6 +20,10 @@ body,
   width: 10px;
 }
 
+.BoxSide {
+  background: #1F2A40;
+}
+
 /* Track */
 ::-webkit-scrollbar-track {
   background: #e0e0e0;

@@ -48,17 +48,21 @@ const Sidebar = () => {
   return (
     <Box
       sx={{
-        "& .pro-sidebar-inner": {
+        "& .ps-sidebar-container": {
           background: `${colors.primary[400]} !important`,
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
         },
         "& .pro-inner-item": {
+          color: "#6870fa !important",
           padding: "5px 35px 5px 20px !important",
         },
-        "& .pro-inner-item:hover": {
+        "& .ps-menu-label:hover": {
           color: "#868dfb !important",
+        },
+        "& .pro-menu-item.active": {
+          color: "#6870fa !important",
         },
         "& .pro-menu-item.active": {
           color: "#6870fa !important",

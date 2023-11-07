@@ -15,6 +15,7 @@ import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import FAQ from "./scenes/faq";
 import Calendar from "./scenes/calendar";
+import Geography from "./scenes/geography";
 
 function App() {
   const [theme, colorMode] = useMode()
@@ -39,7 +40,7 @@ function App() {
               <Route path="/line" element={<Line />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
-              {/* <Route path="/geography" element={<Geography />} /> */}
+              <Route path="/geography" element={<Geography />} />
             </Routes>
           </main>
         </div>

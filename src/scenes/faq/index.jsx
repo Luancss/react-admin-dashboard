@@ -11,16 +11,16 @@ const FAQ = () => {
   const colors = tokens(theme.palette.mode);
 
   return <Box m="20px">
-    <Header title="FAQ" subtitle="Frequently Asked Questions Page"/>
+    <Header title="Perguntas frequentes" subtitle="Página de perguntas frequentes"/>
     <Accordion defaultExpanded>
       <AccordionSummary expandIcon={<ExpendMoreIcon/>}>
         <Typography color={colors.greenAccent[500]} variant="h5">
-          An Important Question
+        Como faço para acessar o meu painel administrativo
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Typography>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt
+        Para acessar o seu painel administrativo, faça login na sua conta usando suas credenciais de usuário. Uma vez logado, você encontrará um link ou botão para acessar o painel administrativo.
         </Typography>
       </AccordionDetails>
     </Accordion>
@@ -28,12 +28,12 @@ const FAQ = () => {
     <Accordion defaultExpanded>
       <AccordionSummary expandIcon={<ExpendMoreIcon/>}>
         <Typography color={colors.greenAccent[500]} variant="h5">
-         Your Favorite Question
+        Posso personalizar o meu dashboard para exibir informações específicas para o meu negócio?
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Typography>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt
+        Sim, você pode personalizar o seu dashboard. Geralmente, há opções de personalização que permitem escolher os widgets, gráficos e métricas que são mais relevantes para o seu negócio. Procure por botões de "personalização" ou "editar dashboard" para começar.
         </Typography>
       </AccordionDetails>
     </Accordion>
@@ -41,25 +41,12 @@ const FAQ = () => {
     <Accordion defaultExpanded>
       <AccordionSummary expandIcon={<ExpendMoreIcon/>}>
         <Typography color={colors.greenAccent[500]} variant="h5">
-         Some Random Question
+        Como faço para adicionar novos usuários ou membros da equipe ao painel administrativo?
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Typography>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt
-        </Typography>
-      </AccordionDetails>
-    </Accordion>
-
-    <Accordion>
-      <AccordionSummary expandIcon={<ExpendMoreIcon/>}>
-        <Typography color={colors.greenAccent[500]} variant="h5">
-          The Final Question
-        </Typography>
-      </AccordionSummary>
-      <AccordionDetails>
-        <Typography>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt
+        Para adicionar novos usuários, acesse a seção de configurações ou administração do dashboard. Lá, você deve encontrar a opção para adicionar novos usuários ou membros da equipe, onde você pode especificar seus papéis e permissões.
         </Typography>
       </AccordionDetails>
     </Accordion>
@@ -67,12 +54,25 @@ const FAQ = () => {
     <Accordion defaultExpanded>
       <AccordionSummary expandIcon={<ExpendMoreIcon/>}>
         <Typography color={colors.greenAccent[500]} variant="h5">
-          An Important question
+        Posso exportar dados do meu dashboard para análises mais detalhadas?
         </Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Typography>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt
+        Sim, na maioria dos dashboards administrativos, você pode exportar dados. Procure por opções de exportação, como exportar para CSV, Excel ou outros formatos populares, geralmente disponíveis em gráficos e tabelas.
+        </Typography>
+      </AccordionDetails>
+    </Accordion>
+
+    <Accordion defaultExpanded>
+      <AccordionSummary expandIcon={<ExpendMoreIcon/>}>
+        <Typography color={colors.greenAccent[500]} variant="h5">
+        O que devo fazer se eu esqueci minha senha de acesso ao dashboard?
+        </Typography>
+      </AccordionSummary>
+      <AccordionDetails>
+        <Typography>
+        Se você esqueceu sua senha, geralmente há uma opção de "Esqueci minha senha" ou "Redefinir senha" na página de login. Clique nessa opção e siga as instruções para redefinir a senha, que normalmente envolvem receber um e-mail com um link de redefinição de senha. Certifique-se de verificar sua pasta de spam, caso não receba o e-mail imediatamente.
         </Typography>
       </AccordionDetails>
     </Accordion>

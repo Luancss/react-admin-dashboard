@@ -18,20 +18,20 @@ const Team = () => {
     },
     {
       field: "name",
-      headerName: "Name",
+      headerName: "Nome",
       flex: 1,
       cellClassName: "name-column--cell",
     },
     {
       field: "age",
-      headerName: "Age", 
+      headerName: "Idade", 
       type: "number",
       headerAlign: "left",
       align: "left",
     },
     {
       field: "phone", 
-      headerName: "Phote Number",
+      headerName: "Telefone",
       flex: 1,
     },
     {
@@ -41,7 +41,7 @@ const Team = () => {
     },
     {
       field: "access", 
-      headerName: "Access Level",
+      headerName: "Nível de acesso",
       flex: 1,
       renderCell: ({row: {access}}) => {
         return (
@@ -72,7 +72,7 @@ const Team = () => {
 
   return (
     <Box m="20px">
-      <Header title="TEAM" subtitle="Managing the Team Members"/>
+      <Header title="EQUIPE" subtitle="Gerenciador de membros da equipe"/>
       <Box m="40px 0 0 0" height="75vh" sx={{
         "& .MuiDataGrid-root": {
           border: "none",

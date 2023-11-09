@@ -49,7 +49,7 @@ const Sidebar = () => {
     <Box
       sx={{
         "& .ps-sidebar-container": {
-          background: `${colors.primary[400]} !important`,
+          background: `${colors.primary[400]} !important`, 
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
@@ -58,11 +58,8 @@ const Sidebar = () => {
           color: "#6870fa !important",
           padding: "5px 35px 5px 20px !important",
         },
-        "& .ps-menu-label:hover": {
+        "& .ps-menu-button:hover": {
           color: "#868dfb !important",
-        },
-        "& .pro-menu-item.active": {
-          color: "#6870fa !important",
         },
         "& .pro-menu-item.active": {
           color: "#6870fa !important",
@@ -98,7 +95,7 @@ const Sidebar = () => {
           </MenuItem>
 
           {!isCollapsed && (
-            <Box mb="25px">
+            <Box mb="10px">
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="profile-user"
@@ -219,6 +216,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
+              
               title="Geography Chart"
               to="/geography"
               icon={<MapOutlinedIcon />}
@@ -232,4 +230,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Sidebar;

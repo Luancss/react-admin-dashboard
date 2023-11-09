@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+<h1 align="center">Dashboard</h1><br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Desktop (screenshot):
 
-## Available Scripts
+| Dark Mode  | White Mode | 
+| --- | --- |
+| <img src="./.github/painel dark.JPG" /> | <img src="./.github/painel white.JPG" /> | 
 
-In the project directory, you can run:
+| Team | Contacts |
+| --- | --- |
+| <img src="./.github/Team.JPG" /> | <img src="./.github/Contatos.JPG" /> |
 
-### `npm start`
+| Invoices  | Form | 
+| --- | --- |
+| <img src="./.github/faturas.JPG" /> | <img src="./.github/Form.JPG" /> | 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Calendar | FAQ |
+| --- | --- |
+| <img src="./.github/Calendario.JPG" /> | <img src="./.github/FAQ.JPG" /> |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Bars  | Pizza | 
+| --- | --- |
+| <img src="./.github/barras.JPG" /> | <img src="./.github/setores.JPG" /> | 
 
-### `npm test`
+| Lines | Geography |
+| --- | --- |
+| <img src="./.github/linhas.JPG" /> | <img src="./.github/geografico.JPG" /> |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+Dashboard baseado em dados reais com a interface criada com Material UI
 
-### `npm run build`
+## 🚀 Introdução
+Desenvolvi um dashboard React robusto, simplificando dados complexos em visualizações intuitivas. A interface dinâmica oferece insights instantâneos, promovendo uma análise eficiente. Integração fluida e design responsivo garantem uma experiência de usuário otimizada.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :clipboard: Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Node.js 12+](https://nodejs.org/en/download/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :wrench: Instalação
 
-### `npm run eject`
+Para clonar o projeto via HTTPS execute o seguinte comando:
+```
+git clone https://github.com/Luancss/react-admin-dashboard
+```
+Em seguida instale as dependências:
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔨 Execução em ambiente de desenvolvimento
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :hammer_and_wrench: Principais tecnologias utilizadas
+- [Create-react-app](https://create-react-app.dev/) - Conjunto de scripts para criar facilmente um projeto React pré-configurado.
+- [Material UI](https://mui.com/material-ui/) - Biblioteca de componentes React que implementa o design do Material Design
+- [Nivo Charts](https://nivo.rocks/) - Biblioteca React para construção de gráficos reutilizáveis e elegantes.
+- [Formik](https://formik.org/) - Biblioteca para gerenciar formulários em React com facilidade.
+- [Full Calendar](https://fullcalendar.io/) - Plugin JavaScript para exibição de calendários interativos no navegador.
+- [React Pro Sidebar](https://github.com/azouaoui-med/react-pro-sidebar) -  Barra lateral responsiva e personalizável para aplicações React.
+- [Yup](https://github.com/jquense/yup) - Biblioteca para validação de formulário largamente utilizada em projetos Javascript.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ✍ Author
 
-## Learn More
+<img alt="Luancss" title="Luancss" src="https://avatars.githubusercontent.com/u/104950187?v=4" width="100">
+<p>
+    Made with 💜 by Luancss
+</p>
+<p align="left">
+    <a href="https://www.linkedin.com/in/luan-carlos-30035b246/" target="_blank">
+        <img align="center" src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Luan Carlos" />
+    </a>
+    <a href="mailto:luancss.contact@gmail.com" target="_blank">
+        <img align="center" src="https://img.shields.io/badge/Gmail-FF0000?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Luan Carlos" />
+    </a>
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com :heart: por [Luan Carlos](https://github.com/Luancss)

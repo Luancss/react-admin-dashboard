@@ -63,7 +63,7 @@ npm start
 - [React Pro Sidebar](https://github.com/azouaoui-med/react-pro-sidebar) -  Barra lateral responsiva e personalizável para aplicações React.
 - [Yup](https://github.com/jquense/yup) - Biblioteca para validação de formulário largamente utilizada em projetos Javascript.
 
-## ✍ Author
+## ✍ Autor
 
 <img alt="Luancss" title="Luancss" src="https://avatars.githubusercontent.com/u/104950187?v=4" width="100">
 <p>

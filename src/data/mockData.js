@@ -52,7 +52,7 @@ export const mockDataTeam = [
   {
     id: 7,
     name: "Isabela Sousa",
-    email: "sabela.sousa@email.com",
+    email: "Isabela.sousa@email.com",
     age: 22,
     phone: "(91) 4321-8765",
     access: "user",
@@ -210,8 +210,8 @@ export const mockDataInvoices = [
   },
   {
     id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
+    name: "Rodrigo Lannister",
+    email: "Rodrigolannister@gmail.com",
     cost: "1.24",
     phone: "(421)314-2288",
     date: "06/15/2021",
